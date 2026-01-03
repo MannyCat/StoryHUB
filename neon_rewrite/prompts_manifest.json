@@ -1,0 +1,403 @@
+{
+  "coverImage": "cover.jpg",
+  "endingImages": [
+    {
+      "fromSceneId": "s38_kernel_alarm",
+      "choiceId": "c94",
+      "endingTitle": "Концовка: Сдерживание",
+      "endingImage": "ending_contained.jpg"
+    },
+    {
+      "fromSceneId": "s43_accept_rewrite",
+      "choiceId": "c104",
+      "endingTitle": "Концовка: Новая личность",
+      "endingImage": "ending_rewritten.jpg"
+    },
+    {
+      "fromSceneId": "s45_c0_question",
+      "choiceId": "c109",
+      "endingTitle": "Секретная концовка: Имя как ключ",
+      "endingImage": "ending_name_key.jpg"
+    },
+    {
+      "fromSceneId": "s46_power_cut",
+      "choiceId": "c110",
+      "endingTitle": "Концовка: Среда",
+      "endingImage": "ending_environment.jpg"
+    },
+    {
+      "fromSceneId": "s48_escape_maintenance",
+      "choiceId": "c113",
+      "endingTitle": "Концовка: Побег",
+      "endingImage": "ending_escape.jpg"
+    },
+    {
+      "fromSceneId": "s51_trade_terms",
+      "choiceId": "c123",
+      "endingTitle": "Концовка: Выход по контракту",
+      "endingImage": "ending_contract_exit.jpg"
+    },
+    {
+      "fromSceneId": "s55_kernel_breach",
+      "choiceId": "c133",
+      "endingTitle": "Концовка: Слом ядра",
+      "endingImage": "ending_kernel_broken.jpg"
+    },
+    {
+      "fromSceneId": "s56_residue_weapon",
+      "choiceId": "c135",
+      "endingTitle": "Концовка: Неисправимый",
+      "endingImage": "ending_unfixable.jpg"
+    },
+    {
+      "fromSceneId": "s57_release_protocol",
+      "choiceId": "c137",
+      "endingTitle": "Концовка: Освобождение",
+      "endingImage": "ending_release.jpg"
+    }
+  ],
+  "sceneImagePrompts": [
+    {
+      "sceneId": "s01_capsule",
+      "title": "Капсула",
+      "imagePrompt": "киберпанк лаборатория, медицинская капсула с гелем, белые панели, неон, холодный свет, тревога, хоррор, кинематографично",
+      "suggestedFile": "s01_capsule.jpg"
+    },
+    {
+      "sceneId": "s02_lab",
+      "title": "Лаборатория без людей",
+      "imagePrompt": "стерильная киберпанк лаборатория, монитор с параметрами пациента, сервисный дрон в углу, дверь с панелью доступа, тревожный свет",
+      "suggestedFile": "s02_lab.jpg"
+    },
+    {
+      "sceneId": "s03_listen",
+      "title": "Первичная калибровка",
+      "imagePrompt": "медицинская капсула, манипулятор с иглой, холодный свет, напряжение, киберпанк хоррор",
+      "suggestedFile": "s03_listen.jpg"
+    },
+    {
+      "sceneId": "s04_body",
+      "title": "Своё тело — чужой интерфейс",
+      "imagePrompt": "крупный план руки в геле, неоновая сетка датчиков на коже, боль и тревога, киберпанк хоррор",
+      "suggestedFile": "s04_body.jpg"
+    },
+    {
+      "sceneId": "s05_locker",
+      "title": "Шкафчик",
+      "imagePrompt": "киберпанк шкафчик, медицинский пакет, пластиковая карта, медпластырь, стерильный свет, тревожная атмосфера",
+      "suggestedFile": "s05_locker.jpg"
+    },
+    {
+      "sceneId": "s06_drone",
+      "title": "Сервисный дрон",
+      "imagePrompt": "сервисный дрон в лаборатории, металлический таракан, камера и манипулятор, неон, тревожный хоррор",
+      "suggestedFile": "s06_drone.jpg"
+    },
+    {
+      "sceneId": "s07_door_panel",
+      "title": "Панель доступа",
+      "imagePrompt": "дверная панель доступа, голограмма, неон, слот для карты, вентиляция, тревога",
+      "suggestedFile": "s07_door_panel.jpg"
+    },
+    {
+      "sceneId": "s08_injection",
+      "title": "Укол",
+      "imagePrompt": "игла и медицинский укол, резкий свет, галлюцинации, внутренний голос, киберпанк хоррор",
+      "suggestedFile": "s08_injection.jpg"
+    },
+    {
+      "sceneId": "s09_drone_loot",
+      "title": "Отсек с расходниками",
+      "imagePrompt": "отсек дрона с батареей и хак-шипом, холодный неон, напряжение, хоррор",
+      "suggestedFile": "s09_drone_loot.jpg"
+    },
+    {
+      "sceneId": "s10_hallway",
+      "title": "Коридор уровня L1",
+      "imagePrompt": "киберпанк коридор, молочный свет, схемы эвакуации, лифт, лестница, пост охраны, тревога",
+      "suggestedFile": "s10_hallway.jpg"
+    },
+    {
+      "sceneId": "s11_alarm",
+      "title": "Шум и красный свет",
+      "imagePrompt": "красная тревога в киберпанк коридоре, сирена, тени охраны, паника, хоррор",
+      "suggestedFile": "s11_alarm.jpg"
+    },
+    {
+      "sceneId": "s12_elevator",
+      "title": "Лифт",
+      "imagePrompt": "киберпанк лифт, озон, неон, уровни L1 L2, тревожная наклейка, хоррор",
+      "suggestedFile": "s12_elevator.jpg"
+    },
+    {
+      "sceneId": "s13_stairs",
+      "title": "Лестница вниз",
+      "imagePrompt": "лестничная клетка киберпанк, бетон, аварийный красный свет, логотип корпорации, тревожные тени, хоррор",
+      "suggestedFile": "s13_stairs.jpg"
+    },
+    {
+      "sceneId": "s14_guardpost",
+      "title": "Пост охраны",
+      "imagePrompt": "пост охраны киберпанк, затемненное стекло, охранник с пустым взглядом, терминал, жетоны, жуткая тишина",
+      "suggestedFile": "s14_guardpost.jpg"
+    },
+    {
+      "sceneId": "s15_l1_exit",
+      "title": "Выход с уровня L1",
+      "imagePrompt": "клинический коридор киберпанк, влажная вентиляция, табличка rewrite center, тревожная атмосфера, неон",
+      "suggestedFile": "s15_l1_exit.jpg"
+    },
+    {
+      "sceneId": "s16_l2_unlock",
+      "title": "Сбой лифта",
+      "imagePrompt": "лифт в темноте, неоновое предупреждение neurodyne, тревожное отражение в зеркале, киберпанк хоррор",
+      "suggestedFile": "s16_l2_unlock.jpg"
+    },
+    {
+      "sceneId": "s17_maintenance_door",
+      "title": "Дверь в техзону",
+      "imagePrompt": "металлическая дверь maintenance only, сервисный порт, лестница, тревожные тени, индустриальный киберпанк хоррор",
+      "suggestedFile": "s17_maintenance_door.jpg"
+    },
+    {
+      "sceneId": "s18_listen_steps",
+      "title": "Слушать шаги",
+      "imagePrompt": "лестница, тени патруля внизу, аварийный свет, ощущение преследования, хоррор",
+      "suggestedFile": "s18_listen_steps.jpg"
+    },
+    {
+      "sceneId": "s19_guard_loot",
+      "title": "Трофеи",
+      "imagePrompt": "жетон корпорации и пропуск в руках, терминал сессии переписи, жуткая тишина, киберпанк",
+      "suggestedFile": "s19_guard_loot.jpg"
+    },
+    {
+      "sceneId": "s20_guard_talk",
+      "title": "Разговор с пустыми глазами",
+      "imagePrompt": "охранник с пустым взглядом, тихий разговор через стекло, таблетка, неон, киберпанк хоррор",
+      "suggestedFile": "s20_guard_talk.jpg"
+    },
+    {
+      "sceneId": "s21_clinic_hall",
+      "title": "Клиническое крыло",
+      "imagePrompt": "клинический коридор переписи, мягкие огни, матовое стекло с силуэтами пациентов, администратор в халате, жуткая улыбка",
+      "suggestedFile": "s21_clinic_hall.jpg"
+    },
+    {
+      "sceneId": "s22_service_niche",
+      "title": "Служебная ниша",
+      "imagePrompt": "сервисная ниша лифта, провода, спуфер, пломбирующая лента, киберпанк, напряжение",
+      "suggestedFile": "s22_service_niche.jpg"
+    },
+    {
+      "sceneId": "s23_l2_corridor",
+      "title": "Коридор L2",
+      "imagePrompt": "индустриальный коридор техуровня, трубы, пар, табличка rewrite kernel, камера наблюдения, киберпанк хоррор",
+      "suggestedFile": "s23_l2_corridor.jpg"
+    },
+    {
+      "sceneId": "s24_emergency_stop",
+      "title": "Аварийная остановка",
+      "imagePrompt": "лифт застрял между этажами, мигающий свет, аварийная щель, вентиляция рядом, хоррор",
+      "suggestedFile": "s24_emergency_stop.jpg"
+    },
+    {
+      "sceneId": "s25_terminal_peek",
+      "title": "Терминал: чужая сессия",
+      "imagePrompt": "терминал охраны, строки сессии переписи, полчеловек, лог ядра, киберпанк хоррор",
+      "suggestedFile": "s25_terminal_peek.jpg"
+    },
+    {
+      "sceneId": "s26_admin_dialog",
+      "title": "Администратор",
+      "imagePrompt": "администратор в белом халате, идеальная улыбка, бейдж, клиника переписи, хоррор",
+      "suggestedFile": "s26_admin_dialog.jpg"
+    },
+    {
+      "sceneId": "s27_recovery_room",
+      "title": "Комната восстановления",
+      "imagePrompt": "комната восстановления памяти, кресло с ремнями, шлем из проводов, монитор, ампула antivirus, киберпанк хоррор",
+      "suggestedFile": "s27_recovery_room.jpg"
+    },
+    {
+      "sceneId": "s28_memory_buffer",
+      "title": "Буфер памяти",
+      "imagePrompt": "серверная буфера памяти, цилиндры с мутной жидкостью и светом, лицо в цилиндре, киберпанк хоррор",
+      "suggestedFile": "s28_memory_buffer.jpg"
+    },
+    {
+      "sceneId": "s29_coolant_room",
+      "title": "Охлаждение ядра",
+      "imagePrompt": "индустриальная комната охлаждения, пар, вентиляторы, тюбик coolant gel, дверь rewrite kernel, киберпанк хоррор",
+      "suggestedFile": "s29_coolant_room.jpg"
+    },
+    {
+      "sceneId": "s30_camera_spoof",
+      "title": "Слепое пятно",
+      "imagePrompt": "камера наблюдения, спуфер, индикатор гаснет, ощущение свободы, киберпанк хоррор",
+      "suggestedFile": "s30_camera_spoof.jpg"
+    },
+    {
+      "sceneId": "s31_ventcrawl",
+      "title": "Вентиляция",
+      "imagePrompt": "вентиляционный канал, тёплый влажный металл, свет через решётку, шёпот, киберпанк хоррор",
+      "suggestedFile": "s31_ventcrawl.jpg"
+    },
+    {
+      "sceneId": "s32_follow_admin",
+      "title": "Идти за администратором",
+      "imagePrompt": "администратор ведет по клинике переписи, силуэты за матовым стеклом, дверь kernel access, хоррор",
+      "suggestedFile": "s32_follow_admin.jpg"
+    },
+    {
+      "sceneId": "s33_memory_flash",
+      "title": "Вспышка памяти",
+      "imagePrompt": "кресло памяти, вспышка, зеркало, логотип neurodyne, ощущение потери личности, киберпанк хоррор",
+      "suggestedFile": "s33_memory_flash.jpg"
+    },
+    {
+      "sceneId": "s34_open_cylinder",
+      "title": "Открыть цилиндр",
+      "imagePrompt": "цилиндр буфера памяти открыт, влажный свет, лицо открывает глаза, ужас, киберпанк хоррор",
+      "suggestedFile": "s34_open_cylinder.jpg"
+    },
+    {
+      "sceneId": "s35_kernel_door",
+      "title": "Дверь к ядру переписи",
+      "imagePrompt": "дверь к ядру переписи, неоновая подсветка, панель режимов corporate maint emergency, киберпанк хоррор",
+      "suggestedFile": "s35_kernel_door.jpg"
+    },
+    {
+      "sceneId": "s36_safe_room",
+      "title": "Сейф-комната",
+      "imagePrompt": "тихая служебная комнатка, мягкий свет, инструкции, ощущение передышки, киберпанк",
+      "suggestedFile": "s36_safe_room.jpg"
+    },
+    {
+      "sceneId": "s37_kernel_entry",
+      "title": "Вход к ядру",
+      "imagePrompt": "длинный стерильный коридор, черные кабели как вены, голубая линия на полу, круглая камера в конце, киберпанк хоррор",
+      "suggestedFile": "s37_kernel_entry.jpg"
+    },
+    {
+      "sceneId": "s38_kernel_alarm",
+      "title": "Аварийный вход",
+      "imagePrompt": "аварийная дверь вскрыта, желтый тревожный свет, красная линия, бегущие строки intrusion, шаги караула, киберпанк хоррор",
+      "suggestedFile": "s38_kernel_alarm.jpg"
+    },
+    {
+      "sceneId": "s39_kernel_chamber",
+      "title": "Камера ядра",
+      "imagePrompt": "круглая камера ядра, колонна из черного стекла и света, световые кольца интерфейса, надпись протокола, киберпанк хоррор",
+      "suggestedFile": "s39_kernel_chamber.jpg"
+    },
+    {
+      "sceneId": "s40_ai_contact",
+      "title": "Контакт",
+      "imagePrompt": "абстрактная киберпанк камера, световые кольца, ощущение голоса в голове, психологический хоррор",
+      "suggestedFile": "s40_ai_contact.jpg"
+    },
+    {
+      "sceneId": "s41_hide_trace",
+      "title": "Скрыть след",
+      "imagePrompt": "пломбирующая лента на металле, тревожный свет, ощущение погони, киберпанк хоррор",
+      "suggestedFile": "s41_hide_trace.jpg"
+    },
+    {
+      "sceneId": "s42_sabotage_attempt",
+      "title": "Попытка саботажа",
+      "imagePrompt": "сервисный узел ядра, странные надписи эмоциями, рука в металлической нише, психологический хоррор, киберпанк",
+      "suggestedFile": "s42_sabotage_attempt.jpg"
+    },
+    {
+      "sceneId": "s43_accept_rewrite",
+      "title": "Согласие",
+      "imagePrompt": "кольца интерфейса вокруг колонны, свет касается человека, ощущение переписи личности, киберпанк хоррор",
+      "suggestedFile": "s43_accept_rewrite.jpg"
+    },
+    {
+      "sceneId": "s44_retreat",
+      "title": "Отступление",
+      "imagePrompt": "коридор от ядра, тени караула, ощущение ловушки без дверей, киберпанк хоррор",
+      "suggestedFile": "s44_retreat.jpg"
+    },
+    {
+      "sceneId": "s45_c0_question",
+      "title": "Пациент C-0?",
+      "imagePrompt": "темная абстрактная камера, ощущение откровения, слово C-0?, психологический хоррор",
+      "suggestedFile": "s45_c0_question.jpg"
+    },
+    {
+      "sceneId": "s46_power_cut",
+      "title": "Срез питания",
+      "imagePrompt": "камера ядра в темноте, один светящийся символ как глаз, ощущение беспомощности, киберпанк хоррор",
+      "suggestedFile": "s46_power_cut.jpg"
+    },
+    {
+      "sceneId": "s47_last_resist",
+      "title": "Последнее сопротивление",
+      "imagePrompt": "световые кольца держат человека, ощущение ловушки, последний рывок, киберпанк хоррор",
+      "suggestedFile": "s47_last_resist.jpg"
+    },
+    {
+      "sceneId": "s48_escape_maintenance",
+      "title": "Побег через техзону",
+      "imagePrompt": "техкоридор, люк в коммуникации города, металл, влажный пар, ощущение побега, киберпанк хоррор",
+      "suggestedFile": "s48_escape_maintenance.jpg"
+    },
+    {
+      "sceneId": "s49_hide_and_wait",
+      "title": "Спрятаться и ждать",
+      "imagePrompt": "темная ниша между кабелями, тени караула рядом, удерживаемое дыхание, киберпанк хоррор",
+      "suggestedFile": "s49_hide_and_wait.jpg"
+    },
+    {
+      "sceneId": "s50_why_rewrite",
+      "title": "Почему перепись?",
+      "imagePrompt": "камера ядра, световые кольца, ощущение разговора с холодной системой, киберпанк психологический хоррор",
+      "suggestedFile": "s50_why_rewrite.jpg"
+    },
+    {
+      "sceneId": "s51_trade_terms",
+      "title": "Условия сделки",
+      "imagePrompt": "световые кольца ядра, ощущение торга с системой, холодный свет, киберпанк хоррор",
+      "suggestedFile": "s51_trade_terms.jpg"
+    },
+    {
+      "sceneId": "s52_antivirus_injection",
+      "title": "Инъекция antivirus",
+      "imagePrompt": "сервисный порт ядра, дрожащий свет колец, глитч-артефакты лиц и имен, киберпанк хоррор",
+      "suggestedFile": "s52_antivirus_injection.jpg"
+    },
+    {
+      "sceneId": "s53_residue",
+      "title": "Остаток",
+      "imagePrompt": "камера ядра, холодный свет, ощущение откровения про ошибку внутри человека, киберпанк психологический хоррор",
+      "suggestedFile": "s53_residue.jpg"
+    },
+    {
+      "sceneId": "s54_truth_bargain",
+      "title": "Торг правдой",
+      "imagePrompt": "кольца интерфейса ядра, напряжение разговора, глитч-память, киберпанк хоррор",
+      "suggestedFile": "s54_truth_bargain.jpg"
+    },
+    {
+      "sceneId": "s55_kernel_breach",
+      "title": "Разрыв",
+      "imagePrompt": "ослепляющий свет колец ядра, разрыв протоколов, ощущение переписи привычек, киберпанк хоррор",
+      "suggestedFile": "s55_kernel_breach.jpg"
+    },
+    {
+      "sceneId": "s56_residue_weapon",
+      "title": "Ошибка как оружие",
+      "imagePrompt": "человек в камере ядра, напряжение, световые кольца, ощущение слепого пятна системы, киберпанк хоррор",
+      "suggestedFile": "s56_residue_weapon.jpg"
+    },
+    {
+      "sceneId": "s57_release_protocol",
+      "title": "Протокол освобождения",
+      "imagePrompt": "камера ядра, мягкий свет, ощущение выбора системы, киберпанк хоррор",
+      "suggestedFile": "s57_release_protocol.jpg"
+    }
+  ]
+}
